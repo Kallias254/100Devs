@@ -20,7 +20,7 @@ class Character {
         target.health = 0;
         const bonusXP = 10;
         console.log(
-          `${this.name} eliminated ${target.name} and wins ${bonusXP} experience points`
+          `${this.name} eliminated ${target.name} and wins ${bonusXP} experience points, ${this.inventory[0]} gold and ${this.inventory[1]} key(s)`
         );
         this.xp += bonusXP;
         this.inventory[0] += this.inventory[0]
